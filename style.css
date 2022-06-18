@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+      width: 100%;
+    }
+}
+  
+
+header{
+    background-image: url('bg-hero-desktop.svg');
+    background-color: hsl(195, 76%, 72%);
+    /* display: flex;
+    align-content: flex-end; */
+    height: 600px;
+    width: auto;
+    /* background-color: white; */
+    /* padding: 20px 80px 50px 80px; */
+    /* height: 650px; */
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.logo{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.button, .logo{
+    height: 30px;
+    align-self: left;
+    margin: 20px;
+}
+
+.button button{
+    display:flex;
+    justify-content: flex-end;
+    border: 1px white solid;
+    height: 5px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 3px 15px rgb(24, 23, 23, 0.2);
+    margin-right: 50px;
+    /* cursor: pointer; */
+}
+
+button:hover{
+    cursor: pointer;
+}
+.header2 {
+    border: 3px solid transparent;
+    padding: 10px;
+    margin: 40px 20px 20px 20px;
+    height: 650px;
+}
+
+.inner1{
+    /* border: 3px black solid; */
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+.inner1 img{
+    width: 90%;
+    height: auto;
+}
+
+.inner1 button{
+    display:flex;
+    justify-content: flex-end;
+    border: 1px hsl(322, 100%, 66%) solid;
+    height: 5px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0px 3px 15px rgb(24, 23, 23, 0.2);
+    margin-right: 50px;
+}
+
+h3{
+    font-size: 40px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 21px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.sect{
+    background-color: white;
+    box-shadow: 0px 3px 20px rgb(24, 23, 23, 0.2);
+    border-radius: 30px;
+    margin: 60px;
+    padding: 100px;
+    height: 650px;
+}
+
+
+.inner2{
+    /* border: 3px black solid; */
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+.inner2 img{
+    width: 90%;
+    height: auto;
+}
+
+
+
+footer{
+    background-color: hsl(194, 48%, 12%);
+    /* display: flex;
+    align-content: flex-end; */
+    height: 400px;
+    width: auto;
+    /* background-color: white; */
+    padding: 20px 80px 50px 80px;
+    /* height: 650px; */
+    position: relative;
+    /* margin: 30px; */
+    
+}
+
+.sectf{
+   width: 25%;
+   float: left;
+   padding: 50px 50px 50px 70px;
+   /* margin: 5px; */
+}
+.sectf p{
+    color: white;
+    font-size: 15px;
+}
+
+#about, #career{
+    padding: 40px 10px 30px 80px;
+
+}
+
+.footer button{
+    display:flex;
+    justify-content: flex-end;
+    border: 1px hsl(322, 100%, 66%) solid;
+    height: 5px;
+    padding: 20px 35px 40px 40px;
+    /* border-radius: 20px; */
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0px 3px 20px rgb(24, 23, 23, 0.2);
+    margin-right: 50px;
+    margin-left: 22%;
+
+    /* font-weight: bold; */
+	/* padding: 10px 25px; */
+	border-radius: 30px;
+}
+
+
+
+
+  
+.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+
+}
+ 
+main{
+    padding-bottom: 200px;
+}
+
+.footer {
+    z-index: 10;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: -100px;
+    background: white;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 35%;
+    height: 200px;
+    padding: 20px 30px 20px 40px;
+    /* color: black; */
+    font-family: 'Poppins';
+    box-shadow: 0px 3px 20px rgb(24, 23, 23, 0.2);
+
+}
+
+.last{
+    padding: 100px 50px 10px 50px;
+}
